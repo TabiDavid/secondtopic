@@ -13,3 +13,10 @@ h2{
 }
 p{text-align: center;
 }
+.allcode{
+    width: 20%;
+    height: 300px;
+    background: #ffff55;
+    margin: 50px auto;
+ 
+}
