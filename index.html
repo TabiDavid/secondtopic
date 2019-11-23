@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Object Creation Functions, Inheritance, Properties, Methods, Instantiation</title>
+    
 
-    <meta charset="UTF-8">
-</head>
 
-<body>
 <link rel="stylesheet" href="index.css">        
 
 <script src="index.js"></script>
+</head>
 
-<h1>Object Creation Functions, Inheritance, Properties, Methods, Instantiation</h1>
-<h2>Add your name, age, city and country and create how many object you want</h2>
-<div class ="allcode">
-<div class="container py-2">
-    <p class="lead">Let Introduce yourself</p>
-<form>
-    <input id="name" type="text" placeholder="add name" class="form-control my-2"></br>
-<input id="age" type="text" placeholder="add age" class="form-control my-2"></br>
-<input id="city" type="text" placeholder="add city" class="form-control my-2"></br>
-<input id="country" type="text" placeholder="add country" class="form-control my-2"> 
 
-<button id="button" class="btn btn-success" type="reset" onclick="capture();">add</button>
-</form>
-</div>
+<body>
 
-<div class="container">
-    <table class="table" id="table">
-        <thead class="thead-inverse">
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>City</th>
-                <th>Country</th>
-            </tr>
-        </thead>
+        <h1>Object Creation Functions, Inheritance, Properties, Methods, Instantiation</h1>
+
+        <h1>Write some values to make function, properties and methods works</h1>
+
+        <p>School material built</p>
+                <input id="material" type="text" ></br>
         
-    </table>
-</div>
-</div>
+                <p>School color</p>
+                <input id="color" type="text" ></br>
+        
+                <p>Years of service</p>
+                <input id="old" type="text" ></br>
+        
+        <button type = "button" onclick = "tellMet()">Press here</button>
+        <div id = "outPut"></div>
+
+<h2>Instantiation</h2>
+
+<h2>An instantiation pattern in JavaScript is a way to create an object using functions.</h2>
+
+<button type="button" onclick="car1()">Press here</button>
+<div id="outPut1"></div>
+
+
+<h2>Inheritance</h2>
+<h2>Inheritance is an important concept in object oriented programming. In the classical inheritance, methods from base class get copied into derived class. In JavaScript, inheritance is supported by using prototype object.</h2>
+
+<p>In this way I have created two animal with constructor Functions to add names to the animal.</p>
+
+<p>Press the button here to see The Dog's name and pedigree</p>
+
+<button type="button" onclick="myDog.showInfo()">Press here</button>
+
+<br>
+<p>Press the button here to see The Cat's name and pedigree</p>
+
+<button type="button" onclick="myCat.showInfo()">Press here</button>
+<div id="ouPut"></div>
+
 </body>
 </html>
